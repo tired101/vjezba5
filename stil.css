@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("grid.jpg")
+	
+}
+
+div {
+	width: 200px;
+	height: 50px;
+	
+    box-sizing: border-box;
+    font-style: italic;
+    text-align: center;
+	text-transform: uppercase;
+    line-height: 140px;
+    position: absolute;
+	
+}
+
+.red4{
+	top: 350px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+    border: 3px dashed #433E3E;
+}
+
+.red3{
+	top: 250px;
+	font-size: 18px;
+	border-radius:  200px 200px 0px 0px;
+	border: 2px solid#433E3E;
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+
+.red2{
+	top:150px; 
+	border-radius: 20px;
+	font-size: 16px;
+	border: 1px double #433E3E;
+	font-weight: bold;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+
+.red1{
+	top: 50px;
+	border-radius: 50%;
+	font-size: 14px;
+	border: 1px dotted #433E3E;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: rgba(210,24,150,1.00);
+}
+
+.stupac1{
+	left: 50px
+}
+
+.stupac2{
+	left: 175px;
+}
+
+.stupac3{
+	left: 300px;
+	
+}
+
+.stupac4{
+	left: 425px;
+	
+}
+
+.stupac5{
+	left: 550px;
+}
+
+.stupac6{
+	left: 675px;
+}
+
+.stupac7{
+	left: 800px;
+}
+
+
+.red4.stupac1{
+	background-color: rgba(133,11,13,1.00);	
+}
+
+.red4.stupac3{
+	background-color: rgba(211,24,28,0.95);
+}
+
+
+.red4.stupac5{
+	background-color: rgba(220,94,96,0.90);
+}
+
+.red4.stupac7{
+	background-color: rgba(242,144,145,0.87);
+}
+
+
+.red3.stupac2{
+	background-color: rgba(112,10,162,1.00);
+}
+
+
+.red3.stupac4{
+	background-color: rgba(198,103,245,0.91);
+}
+
+
+.red3.stupac6{
+	background-color: rgba(226,176,250,0.84);
+}
+
+
+.red2.stupac3{
+	background: linear-gradient(to left,khaki,LightGoldenRodYellow);
+	
+}
+
+.red2.stupac5{
+	
+	background: linear-gradient(to right,khaki,LightGoldenRodYellow);
+}
+
+.red1.stupac4{
+    
+	background: radial-gradient(darkgreen 30%,darkseagreen 70%)
+		 
+}
+
+@media screen and (max-width: 550px) {
+    .container div {
+        border: 20px solid rgba(30,75,214,1.00);
+        border-width: 3px;
+		border-radius: 40px;
+       position: static;
+		margin-top: 30px;
+		text-transform: lowercase;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		color:#6C6C96;
+		font-style: normal;
+    }
